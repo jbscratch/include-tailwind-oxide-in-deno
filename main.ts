@@ -1,7 +1,6 @@
 import { Scanner } from "./tailwindcss-oxide.wasi-browser-deno.ts";
 
 import { join } from "node:path";
-import process from "node:process";
 
 console.log(Scanner);
 
@@ -11,7 +10,7 @@ console.log(Scanner);
 const scanner = new Scanner({
   sources: [
     {
-      base: join(process.cwd(), "src"),
+      base: join(Deno.cwd(), "src"),
       pattern: "**/*",
       negated: false,
     },
