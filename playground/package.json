@@ -1,0 +1,19 @@
+{
+  "name": "playground",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tailwindcss/oxide": "^4.1.11",
+    "@tailwindcss/oxide-wasm32-wasi": "^4.1.11"
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide"
+  ]
+}

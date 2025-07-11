@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@napi-rs/wasm-runtime": "npm:@napi-rs/wasm-runtime@^0.2.12",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
