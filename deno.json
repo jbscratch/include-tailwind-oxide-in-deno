@@ -1,6 +1,6 @@
 {
   "tasks": {
-    "dev": "deno run  --unstable-raw-imports --watch main.ts"
+    "dev": "deno run -A --unstable-raw-imports --watch main.ts"
   },
   "imports": {
     "@napi-rs/wasm-runtime": "npm:@napi-rs/wasm-runtime@^0.2.12",
