@@ -1,3 +1,3 @@
-import { Scanner } from "./oxide-wasm32-wasi/tailwindcss-oxide.wasi-browser.js";
+import { Scanner } from "./tailwindcss-oxide.wasi-browser-deno.ts";
 
 console.log(Scanner);
